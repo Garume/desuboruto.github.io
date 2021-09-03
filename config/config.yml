@@ -14,9 +14,9 @@ repos:
 #  sample-repo:
 #    description:
 #    language:    ""
-  BlackJack:
-    html_url: https://www.garume.work/BlackJack/
-    description: Unityで作成したBlackJackです。WebGLで動いています。
+#  BlackJack:
+#    html_url: https://www.garume.work/BlackJack/
+#    description: Unityで作成したBlackJackです。WebGLで動いています。
 
 exclude_repos:
   - desuboruto.github.io
@@ -31,7 +31,7 @@ skills:
 exclude_skills:
 #  - other-language
 
-history: true
+history: false
 others:  false
 
 system:
