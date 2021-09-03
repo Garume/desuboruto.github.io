@@ -1,30 +1,40 @@
 username: desuboruto
 
 user:
-#  bio:
-#  email:
-#  company:
-#  location:
-#  social_media:
-
+  bio:      |-
+            セキュリティ系の職に就きたい大学生です
+            atcoderやctfよくやっています
+            web系に手を付けたことがないのでwebを勉強中です
+  email: desuboruto@gmail.com
+  company: TDU
+  location: 茨城
+  social_media:
+	Discord: ガルム.dylib#1255
+	Twitter: garume_
 repos:
 #  sample-repo:
 #    description:
 #    language:    ""
-#  sample-app:
-#    html_url:
-#    description:
+  BlackJack:
+    html_url: https://www.garume.work/BlackJack/
+    description: Unityで作成したBlackJackです。WebGLで動いています。
 
 exclude_repos:
-#  - other-repo
+  - desuboruto.github.io
 
 skills:
-#  language:
+  Python:     基本的に使用している言語です
+  C++:        競プロで主に使ってます
+  C#:         Unityで使ってます
+  Java:       minecraft Mod開発で使ってます
+　Git:
+
+  React:      勉強中
 
 exclude_skills:
 #  - other-language
 
-history: false
+history: true
 others:  false
 
 system:
@@ -33,11 +43,11 @@ system:
   sort_repos_by:       star
 
   titles:
-#    repos:
-#    repos_sub:
-#    skills:
-#    skills_sub:
-#    history:
-#    history_sub:
+    repos: Project
+    repos_sub: 作ったもの
+    skills: Skills
+    skills_sub: 使用できる言語
+    history: History
+    history_sub: 今までやってきたこと
 #    others:
 #    others_sub:
