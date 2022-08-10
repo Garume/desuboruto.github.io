@@ -22,7 +22,6 @@
     "paths": {
       "@src/*": ["./src/*"]
     },
-    "rootDir": "./src",
     "outDir": "./out",
     "declaration": true,
     "declarationMap": true,
