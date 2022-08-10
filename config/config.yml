@@ -1,10 +1,10 @@
 username: desuboruto
 
 user:
-  bio:      |-
-            セキュリティ系の職に就きたい大学生です
-            atcoderやctfよくやっています
-            web系に手を付けたことがないのでwebを勉強中です
+  bio: |-
+    セキュリティ系の職に就きたい大学生です
+    atcoderやctfよくやっています
+    web系に手を付けたことがないのでwebを勉強中です
   email: desuboruto@gmail.com
   company: TDU
   location: 茨城
@@ -22,25 +22,25 @@ exclude_repos:
   - desuboruto.github.io
 
 skills:
-  Python:     基本的に使用している言語です
-  C++:        競プロで主に使ってます
-  C#:         Unityで使ってます
-  Java:       minecraft Mod開発で使ってます
-  React:      勉強中
+  Python: 基本的に使用している言語です
+  C++: 競プロで主に使ってます
+  C#: Unityで使ってます
+  Java: minecraft Mod開発で使ってます
+  React: 勉強中
 
 exclude_skills:
 #  - other-language
 
 history: false
-others:  false
+others: false
 
 system:
   max_count_repo_show: 12
-  exclude_fork_repo:   true
-  sort_repos_by:       star
+  exclude_fork_repo: true
+  sort_repos_by: star
 
   titles:
-    repos: Project
+    repos: Github Repository
     repos_sub: 作ったもの
     skills: Skills
     skills_sub: 使用できる言語

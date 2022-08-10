@@ -16,15 +16,24 @@
     "production:clean": "rimraf out/"
   },
   "dependencies": {
+    "@ant-design/icons": "^4.7.0",
+    "@emotion/babel-plugin": "^11.10.0",
+    "@emotion/react": "^11.10.0",
     "@primer/octicons-react": "^15.0.1",
+    "antd": "^4.22.4",
     "dotenv": "^10.0.0",
+    "framer-motion": "^7.0.0",
     "html-react-parser": "^1.2.8",
     "js-yaml": "^4.1.0",
     "lodash": "^4.17.21",
     "next": "^11.0.0",
+    "prettier": "^2.7.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
-    "react-markdown": "^7.0.0"
+    "react-markdown": "^7.0.0",
+    "react-particles": "^2.1.4",
+    "tsparticles": "^2.1.4",
+    "tsparticles-engine": "^2.1.4"
   },
   "devDependencies": {
     "@babel/core": "^7.14.6",

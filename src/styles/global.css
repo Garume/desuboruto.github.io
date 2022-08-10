@@ -1,4 +1,5 @@
 @import url('https://unpkg.com/primer/build/build.css');
+@import "antd/dist/antd.css";
 
 .github-component {
     font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol !important;

@@ -1,7 +1,11 @@
-import React      from 'react';
-import {AppProps} from 'next/app';
-import '@src/styles/global.css';
+import { AppProps } from 'next/app'
 
-const App = ({Component, pageProps}: AppProps) => <Component {...pageProps} />;
+import '@src/styles/global.css'
+import { AnimatePresence } from 'framer-motion'
 
-export default App;
+const App = ({ Component, pageProps, router }: AppProps) => (
+  <AnimatePresence exitBeforeEnter>
+    <Component key={router.asPath} {...pageProps} />
+  </AnimatePresence>
+)
+export default App
