@@ -22,6 +22,7 @@ const TextStyle = css`
   font-size: 120px;
   text-align: center;
   margin-top: 12.5%;
+  user-select: none;
 `
 
 const TitleStyle = css`

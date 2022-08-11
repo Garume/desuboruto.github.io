@@ -18,7 +18,7 @@ const ThreeD: React.FC<Props> = () => {
   )
 }
 
-const TitleStyle = css`
+export const TitleStyle = css`
   text-align: center;
 `
 export default ThreeD
