@@ -1,4 +1,3 @@
-import { GithubOutlined, TwitterOutlined } from '@ant-design/icons'
 import { css } from '@emotion/react'
 import { Layout as AntLayout } from 'antd'
 import { motion } from 'framer-motion'

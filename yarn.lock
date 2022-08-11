@@ -2530,7 +2530,7 @@ fraction.js@^4.1.1:
   resolved "https://registry.yarnpkg.com/fraction.js/-/fraction.js-4.1.1.tgz#ac4e520473dae67012d618aab91eda09bcb400ff"
   integrity sha512-MHOhvvxHTfRFpF1geTK9czMIZ6xclsEor2wkIGYYq+PxcQqT7vStJqjhe6S1TenZrMZzo+wlqOufBDVepUEgPg==
 
-framer-motion@^7.0.0:
+framer-motion@7.0.0:
   version "7.0.0"
   resolved "https://registry.yarnpkg.com/framer-motion/-/framer-motion-7.0.0.tgz#5fb580d0fe5a2a3ec055d2b7b5b57313a96683b7"
   integrity sha512-mOUKle6LouYVP4KLz+cMiNI6fL3qP9hQY4PBaN3E1FyPhcvuAgvs/JPgYktvK5zdRbIRU0gpBsr0CW5hP2KzKA==

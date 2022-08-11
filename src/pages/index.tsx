@@ -26,7 +26,7 @@ const TextStyle = css`
 
 const TitleStyle = css`
   width: 100vw;
-  height: 100vh;
+  height: 90vh;
   object-fit: cover;
 `
 
