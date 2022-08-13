@@ -54,6 +54,7 @@ const IconStyle = css`
   flex-wrap: wrap;
   flex-direction: row;
   justify-content: center;
+  margin: 10px;
 `
 const MenuStyle = css`
   background-color: #f0f2f5;

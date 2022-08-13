@@ -37,10 +37,10 @@ const HamburgerManu = () => {
         css={FontStyle}
         width={256}
       >
-        <TextLink href="/">
+        <TextLink href="/" scroll={false}>
           <h1>Main</h1>
         </TextLink>
-        <TextLink href="/about">
+        <TextLink href="/about" scroll={false}>
           <h1>About</h1>
         </TextLink>
         <h1 onClick={showWorkDrawer}>
@@ -55,25 +55,25 @@ const HamburgerManu = () => {
           visible={workDrawer}
           width={256}
         >
-          <TextLink href="/works">
+          <TextLink href="/works" scroll={false}>
             <h1>Works</h1>
           </TextLink>
-          <TextLink href="/works/software">
+          <TextLink href="/works/software" scroll={false}>
             <h1>Software</h1>
           </TextLink>
-          <TextLink href="/works/game">
+          <TextLink href="/works/game" scroll={false}>
             <h1>Game</h1>
           </TextLink>
-          <TextLink href="/works/3d">
+          <TextLink href="/works/3d" scroll={false}>
             <h1>3D</h1>
           </TextLink>
         </Drawer>
 
-        <TextLink href={'/github'}>
+        <TextLink href={'/github'} scroll={false}>
           <h1>Github</h1>
         </TextLink>
 
-        <TextLink href="/contact">
+        <TextLink href="/contact" scroll={false}>
           <h1>Contact</h1>
         </TextLink>
       </Drawer>

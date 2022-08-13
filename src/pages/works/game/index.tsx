@@ -1,7 +1,7 @@
 import { css } from '@emotion/react'
+import GameCard from '@src/components/game/card/card'
 import Layout from '@src/components/layout'
 import { Typography } from 'antd'
-import ThreeDCard from '@src/components/3d/card/card'
 
 const { Title } = Typography
 
@@ -11,20 +11,22 @@ const ThreeD: React.FC<Props> = () => {
   return (
     <Layout>
       <div>
-        <Title css={TitleStyle}>Works 3D Page</Title>
+        <Title css={TitleStyle}>Works Game Page</Title>
       </div>
       <div css={CardListStyle}>
-        <ThreeDCard
-          namelink="kame"
-          imgPath="/bird.jpg"
-          imgAlt="bird to turtle"
-          title="Bird to Turtle"
+        <GameCard
+          namelink="BlackJack/"
+          imgPath="/blackjack.jpg"
+          imgAlt="blackjack"
+          title="BlackJack"
+          new={true}
         />
-        <ThreeDCard
-          namelink="kame"
-          imgPath="/turtle.jpg"
-          imgAlt="turtle to bird"
-          title="Turtle to Bird"
+        <GameCard
+          namelink="gravityball"
+          imgPath="/gravityball.jpg"
+          imgAlt="gravityball"
+          title="GravityBall"
+          new={false}
         />
       </div>
     </Layout>
