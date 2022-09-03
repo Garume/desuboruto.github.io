@@ -26,6 +26,12 @@ const ThreeD: React.FC<Props> = () => {
           imgAlt="turtle to bird"
           title="Turtle to Bird"
         />
+        <ThreeDCard
+          namelink="cresentRose"
+          imgPath="/cresentRose.jpg"
+          imgAlt="cresentRose"
+          title="CresentRose by RWBY"
+        />
       </div>
     </Layout>
   )
@@ -39,5 +45,6 @@ const CardListStyle = css`
   margin-top: 10px;
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
 `
 export default ThreeD
